@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Entropy Detection Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f9f9f9; padding-top: 40px; }
+    .container { max-width: 900px; }
+    .plot { width: 100%; margin-top: 30px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <div class="container text-center">
+    <h1 class="mb-4">🔍 Upload File or PCAP for Entropy Analysis</h1>
+
+    <!-- Live Sniffer Buttons -->
+    <div class="mb-4">
+      <a href="/start-sniffer" class="btn btn-outline-primary">🟢 Start Live Sniffer</a>
+      <a href="/stop-sniffer" class="btn btn-outline-danger ms-2">🛑 Stop Sniffer</a>
+    </div>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs mb-3" id="analysisTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="file-tab" data-bs-toggle="tab" data-bs-target="#file" type="button" role="tab">📂 File Entropy</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pcap-tab" data-bs-toggle="tab" data-bs-target="#pcap" type="button" role="tab">📡 PCAP Entropy</button>
+      </li>
+    </ul>
+
+    <!-- Upload Forms -->
+    <div class="tab-content" id="tabContent">
+      <div class="tab-pane fade show active" id="file" role="tabpanel">
+        <form method="POST" enctype="multipart/form-data" class="mb-4">
+          <div class="input-group">
+            <input type="file" name="file_input" class="form-control" required>
+            <button class="btn btn-primary" type="submit">Analyze File</button>
+          </div>
+        </form>
+      </div>
+      <div class="tab-pane fade" id="pcap" role="tabpanel">
+        <form method="POST" enctype="multipart/form-data" class="mb-4">
+          <div class="input-group">
+            <input type="file" name="pcap_input" class="form-control" required>
+            <button class="btn btn-primary" type="submit">Analyze PCAP</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="alert alert-danger mt-3">
+          {% for message in messages %}
+            <div>{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <!-- Entropy Chart + Verdict -->
+    {% if plot_generated %}
+      <h2 class="mt-4">📈 Entropy Plot</h2>
+      <img src="{{ url_for('static', filename='entropy_plot.png') }}" alt="Entropy Plot" class="plot shadow-sm">
+      <div class="mt-3">
+        <a href="/download" class="btn btn-success">⬇️ Download CSV Report</a>
+      </div>
+      <div class="alert alert-info text-start mt-4" role="alert" style="background-color: #e6f7ff;">
+        <h5>🧠 How to Read This Chart</h5>
+        <ul>
+          <li><strong>High entropy</strong> (above red line) = potential encryption or data exfiltration.</li>
+          <li>Near 8 = random (e.g., encrypted, XOR, base64)</li>
+        </ul>
+      </div>
+      {% if verdict == "suspicious" %}
+        <div class="alert alert-warning fw-bold">
+          ⚠️ <strong>Verdict:</strong> High-entropy content detected. Possible hidden data.
+        </div>
+      {% elif verdict == "ok" %}
+        <div class="alert alert-success fw-bold">
+          ✅ <strong>Verdict:</strong> No unusual entropy detected. Content appears normal.
+        </div>
+      {% endif %}
+    {% endif %}
+
+    <!-- Live Alerts Table -->
+    {% if alerts %}
+      <div class="alert alert-secondary mt-5 text-start">
+        <h5>⚠️ Live Entropy Alerts</h5>
+        <table class="table table-sm table-bordered mt-2">
+          <thead class="table-light">
+            <tr>
+              <th>Source IP</th>
+              <th>Dest IP</th>
+              <th>Src Port</th>
+              <th>Dst Port</th>
+              <th>Entropy</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for alert in alerts %}
+            <tr>
+              <td>{{ alert['Source IP'] }}</td>
+              <td>{{ alert['Dest IP'] }}</td>
+              <td>{{ alert['Source Port'] }}</td>
+              <td>{{ alert['Dest Port'] }}</td>
+              <td>{{ alert['Entropy'] }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+
+    <hr class="my-5">
+    <h3>ℹ️ About This Tool</h3>
+    <p class="text-start">
+      This forensic tool detects encrypted or hidden data using entropy analysis. It supports:
+    </p>
+    <ul class="text-start">
+      <li>📁 File/PCAP upload-based detection</li>
+      <li>📡 Live packet sniffing + entropy scoring</li>
+      <li>📊 Alert visualization + CSV report export</li>
+    </ul>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
