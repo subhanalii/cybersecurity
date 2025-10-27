@@ -1,0 +1,126 @@
+{
+  "domain": "openai.com",
+  "generated_at": "2025-10-27T10:32:17.425633",
+  "results": {
+    "headers": {
+      "ok": true,
+      "headers": {
+        "Date": "Mon, 27 Oct 2025 10:32:19 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+        "cf-mitigated": "challenge",
+        "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+        "cross-origin-embedder-policy": "require-corp",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+        "referrer-policy": "same-origin",
+        "server-timing": "chlray;desc=\"9951875f092ed56b\"",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+        "Set-Cookie": "__cf_bm=4vDTJlzsaHVtiuc0x33PfqPRb2PBCdWrFbhDnEySaI4-1761561139-1.0.1.1-mbFEwoIoRauAQbCaOR_7Skb1uFj9SBWnkqmOB0lNSbTxVJmezhAsmalnVjvhcwJZacVXdpjZqog8BKceWFQjqreshYAQaCHnKZBZ8hH8c2Y; path=/; expires=Mon, 27-Oct-25 11:02:19 GMT; domain=.openai.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=WJVm%2BNvGVRYiAGN%2BSKeQtWyNDnnVKzCsmI6h4ziz82988DDfcx2z%2BNReh8H4E3WH2o2XSHhvj0AF9lTiJEJVI8ZgyuMKYkkhmU3qZgaK%2BaxNcZggMTNZRRklIy0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Server": "cloudflare",
+        "CF-RAY": "9951875f092ed56b-KHI",
+        "Content-Encoding": "gzip",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    "snapshot": {
+      "ok": false,
+      "error": "403 Client Error: Forbidden for url: https://openai.com/"
+    },
+    "whois": {
+      "domain_name": [
+        "OPENAI.COM",
+        "openai.com"
+      ],
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": [
+        "2007-01-19 19:28:24",
+        "2007-01-19 19:28:24+00:00"
+      ],
+      "expiration_date": [
+        "2029-01-19 19:28:24",
+        "2029-01-19 19:28:24+00:00"
+      ],
+      "name_servers": [
+        "NS1-02.AZURE-DNS.COM",
+        "NS2-02.AZURE-DNS.NET",
+        "NS3-02.AZURE-DNS.ORG",
+        "NS4-02.AZURE-DNS.INFO",
+        "ns1-02.azure-dns.com",
+        "ns4-02.azure-dns.info",
+        "ns3-02.azure-dns.org",
+        "ns2-02.azure-dns.net"
+      ],
+      "emails": [
+        "abusecomplaints@markmonitor.com",
+        "whoisrequest@markmonitor.com"
+      ],
+      "status": [
+        "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+        "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+        "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+        "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+        "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+        "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+        "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+        "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+        "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+        "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+        "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+        "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+      ]
+    },
+    "ports": {
+      "target": "openai.com",
+      "ip": "openai.com",
+      "open_ports": [
+        80,
+        443,
+        8080
+      ],
+      "banners": {
+        "80": "HTTP/1.1 400 Bad Request\r\nDate: Mon, 27 Oct 2025 10:32:23 GMT\r\nContent-Length: 68\r\nConnection: close\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nReferrer-Policy: same-origin\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nProxy-Status: Cloudflare-Proxy;error=http_request_error\r\nCF-RAY: 9951877bae434906-KHI",
+        "443": "HTTP/1.1 400 Bad Request\r\nServer: cloudflare\r\nDate: Mon, 27 Oct 2025 10:32:23 GMT\r\nContent-Type: text/html\r\nContent-Length: 253\r\nConnection: close\r\nCF-RAY: -",
+        "8080": "HTTP/1.1 400 Bad Request\r\nDate: Mon, 27 Oct 2025 10:32:23 GMT\r\nContent-Length: 68\r\nConnection: close\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nReferrer-Policy: same-origin\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nProxy-Status: Cloudflare-Proxy;error=http_request_error\r\nCF-RAY: 9951877c7fdc2097-KHI"
+      },
+      "scanned_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        443,
+        8080
+      ],
+      "errors": [],
+      "skipped_private": false
+    },
+    "dns": {
+      "A": [
+        "104.18.33.45",
+        "172.64.154.211"
+      ],
+      "CNAME": [],
+      "TXT": []
+    },
+    "subdomains": {
+      "ok": false,
+      "subdomains": [],
+      "error": "HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=6)"
+    }
+  },
+  "errors": [],
+  "risk_score": 16
+}

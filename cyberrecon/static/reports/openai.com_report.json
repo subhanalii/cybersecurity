@@ -1,0 +1,123 @@
+{
+  "domain": "openai.com",
+  "whois": {
+    "Domain Name": "OPENAI.COM, openai.com",
+    "Registrar": "MarkMonitor, Inc.",
+    "Creation Date": "2007-01-19 19:28:24, 2007-01-19 19:28:24+00:00",
+    "Expiration Date": "2029-01-19 19:28:24, 2029-01-19 19:28:24+00:00",
+    "Updated Date": "2024-10-17 22:20:04, 2024-10-17 22:02:55+00:00",
+    "Name Servers": "NS1-02.AZURE-DNS.COM, NS2-02.AZURE-DNS.NET, NS3-02.AZURE-DNS.ORG, NS4-02.AZURE-DNS.INFO, ns4-02.azure-dns.info, ns2-02.azure-dns.net, ns3-02.azure-dns.org, ns1-02.azure-dns.com",
+    "Status": "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited, clientTransferProhibited https://icann.org/epp#clientTransferProhibited, clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited, serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited, serverTransferProhibited https://icann.org/epp#serverTransferProhibited, serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited, clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited), clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited), clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited), serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited), serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited), serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)",
+    "Emails": "abusecomplaints@markmonitor.com, whoisrequest@markmonitor.com"
+  },
+  "dns": {
+    "A": [
+      "172.64.154.211",
+      "104.18.33.45"
+    ],
+    "MX": [
+      "alt3.aspmx.l.google.com.",
+      "alt1.aspmx.l.google.com.",
+      "alt2.aspmx.l.google.com.",
+      "aspmx.l.google.com.",
+      "alt4.aspmx.l.google.com."
+    ],
+    "NS": [
+      "ns1-02.azure-dns.com.",
+      "ns4-02.azure-dns.info.",
+      "ns3-02.azure-dns.org.",
+      "ns2-02.azure-dns.net."
+    ],
+    "TXT": [
+      "No TXT record found"
+    ],
+    "CNAME": [
+      "No CNAME record found"
+    ]
+  },
+  "subdomains": {
+    "error": "crt.sh returned status 503"
+  },
+  "headers": {
+    "url": "openai.com",
+    "final_url": "https://openai.com/",
+    "redirect_chain": [
+      "https://openai.com/"
+    ],
+    "headers": {
+      "Date": "Sat, 25 Oct 2025 10:24:02 GMT",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "cf-mitigated": "challenge",
+      "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "origin-agent-cluster": "?1",
+      "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+      "referrer-policy": "same-origin",
+      "server-timing": "chlray;desc=\"9941007da96fc225\"",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+      "Set-Cookie": "__cf_bm=NOr2hctmA8mWZsCBYnq00RRh6HcluW3bo6mCRAS2mb8-1761387842-1.0.1.1-S2qwLhQa_9Isml2RyKiTjWdOA8P_z0GlqBh9JiZoX_PfHuU6rCRupwxakkCWKUnJwkguFeOOZyUpg_TMvncHyq.19dugiIo50M9QpmHBIpg; path=/; expires=Sat, 25-Oct-25 10:54:02 GMT; domain=.openai.com; HttpOnly; Secure; SameSite=None",
+      "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=dhYpLP9AlGWcDwWMM2hqTePtXWMh6KL7v0izwqaY%2FJFxIHDaKsy4W%2BDZqAYsrkC7Y4eUIZjGTPjd5js6mM6tCCTxtv5E4pkLXZXHFvyRrCPnWXMl6vH7QD0xD9o%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Vary": "Accept-Encoding",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Server": "cloudflare",
+      "CF-RAY": "9941007da96fc225-KHI",
+      "Content-Encoding": "gzip",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "missing_headers": [
+      "Content-Security-Policy (CSP mitigates XSS attacks) \u2192 \ud83d\udfe0 MEDIUM"
+    ],
+    "security_findings": [
+      "Strict-Transport-Security: OK (31536000)",
+      "X-Frame-Options: Present (\ud83d\udfe0 MEDIUM)",
+      "X-Content-Type-Options: Present (\ud83d\udfe2 LOW)",
+      "Referrer-Policy: Present (\ud83d\udfe2 LOW)",
+      "Permissions-Policy: Present (\ud83d\udfe2 LOW)"
+    ],
+    "cdn_detected": [
+      "cloudflare"
+    ],
+    "severity_score": {
+      "HIGH": 1,
+      "MEDIUM": 2,
+      "LOW": 3
+    },
+    "error": null
+  },
+  "ports": {
+    "target": "openai.com",
+    "ip": "104.18.33.45",
+    "open_ports": [
+      80,
+      8080
+    ],
+    "banners": {
+      "8080": "HTTP/1.1 301 Moved Permanently\r\nDate: Sat, 25 Oct 2025 10:24:02 GMT\r\nContent-Type: text/html\r\nContent-Length: 167\r\nConnection: close\r\nCache-Control: max-age=3600\r\nExpires: Sat, 25 Oct 2025 11:24:02 GMT\r\nLocation: https://openai.com/\r\nSet-Cookie: __cf_bm=FzTZpD9sKMTWtWUxktNsHGn9iv2Cmdr0w1wL5zJvadA-1761387842-1.0.1.1-GlxuCOjG7RommKROw2yHiDAf2Cf55ntxMGI2M9nV1IilUZGEP.llLhjUTPgfBdZkHberEyS0B8Gj4ZcetL227FrQVuJIZ.c2LogbS.1bqFQ; path=/; expires=Sat, 25-Oct-25 10:54:02 GMT; domain=.openai.com; HttpOnly\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=ignW0PfCYJ5gBHHqC1G4LGpbVWrX8%2FxteYDeUa8M7Gsks8gUAYToLtYCAcM606jpjVcmOmCogXQQMCeokAJD4Sq4b8D3zR%2BKkm8tzd%2BmVk%2BpO308%2Fmi3AD5bWUk%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nX-Content-Type-Options: nosniff\r\nSet-Cookie: _cfuvid=J7fCgvtK74J007H9Kc3kuN_viUqL7oB_fuCj548gHt4-1761387842316-0.0.1.1-604800000; path=/; domain=.openai.com; HttpOnly\r\nServer: cloudflare\r\nCF-RAY: 9941007e592ce89f-KHI\r\nalt-svc: h3=\":443\"; ma=86400\r\n\r\n<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>",
+      "80": "HTTP/1.1 301 Moved Permanently\r\nDate: Sat, 25 Oct 2025 10:24:02 GMT\r\nContent-Type: text/html\r\nContent-Length: 167\r\nConnection: close\r\nCache-Control: max-age=3600\r\nExpires: Sat, 25 Oct 2025 11:24:02 GMT\r\nLocation: https://openai.com/\r\nSet-Cookie: __cf_bm=hFHOdFeTUxMwiC9RWvJnm.KbbY1HNBcE_S5iLnmbWXc-1761387842-1.0.1.1-nxAN6Io6GZ4bSrA6o_CA2vGXVR9u2k99MlbeOeaTgWV6mTrwp3mKzFMb_5OZ5xlYw6sqTpigDAw0.JjUzzDUyeI7oqt8uYzckzuHqwW6MIY; path=/; expires=Sat, 25-Oct-25 10:54:02 GMT; domain=.openai.com; HttpOnly\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=2EFqRaxiRGmtfJtgFR6Frjc%2FryqTbosxD8%2BqVZkiSEUowXCaVvbTw4KjHuvl7w9nO3wmYCDAF1HndyMfvSeiNM8BZNBkQV0BvfZSd8tfxaeI7chbWhAOwtIRzYA%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nX-Content-Type-Options: nosniff\r\nSet-Cookie: _cfuvid=9oNosx94I3nFPRynGRyUteanBehZfmceydYWN5yT2fE-1761387842360-0.0.1.1-604800000; path=/; domain=.openai.com; HttpOnly\r\nServer: cloudflare\r\nCF-RAY: 9941007e9ea98e3a-KHI\r\nalt-svc: h3=\":443\"; ma=86400\r\n\r\n<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>"
+    },
+    "scanned_ports": [
+      21,
+      22,
+      80,
+      443,
+      8080
+    ],
+    "errors": [
+      {
+        "port": 443,
+        "error": "[SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)"
+      }
+    ],
+    "skipped_private": false
+  },
+  "screenshot": "static/screens\\openai_com.png"
+}

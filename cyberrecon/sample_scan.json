@@ -1,0 +1,28 @@
+{
+    "target": "openai.com",
+    "timestamp": "2025-10-25T15:30:30.419574",
+    "open_ports": [
+        80,
+        8080
+    ],
+    "ip": "104.18.33.45",
+    "dns_records": {
+        "A": [
+            "104.18.33.45"
+        ],
+        "MX": [
+            "aspmx.l.google.com."
+        ]
+    },
+    "security_headers": {
+        "Strict-Transport-Security": "Present",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff"
+    },
+    "severity_score": {
+        "HIGH": 1,
+        "MEDIUM": 2,
+        "LOW": 3
+    },
+    "notes": "Sample scan generated for demo."
+}

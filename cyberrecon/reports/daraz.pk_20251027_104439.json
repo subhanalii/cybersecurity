@@ -1,0 +1,86 @@
+{
+  "domain": "daraz.pk",
+  "generated_at": "2025-10-27T10:44:32.564633",
+  "results": {
+    "whois": {
+      "domain_name": null,
+      "registrar": null,
+      "creation_date": "2012-05-14 00:00:00",
+      "expiration_date": "2026-05-14 00:00:00",
+      "name_servers": [
+        "ns1.alibabadns.com",
+        "ns2.alibabadns.com"
+      ],
+      "emails": null,
+      "status": "Domain is Registered"
+    },
+    "headers": {
+      "ok": true,
+      "headers": {
+        "Date": "Mon, 27 Oct 2025 10:44:35 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Connection": "keep-alive",
+        "Vary": "Accept-Encoding, Accept-Encoding, Ali-Detector-Type, Ali-Hng, X-Host, Accept-Encoding, Origin, User-Agent",
+        "x-server-id": "28c3d6b2523ca52c32ad72931842b19ae64b7364fd9f75f85afff2f3027db025fb18bb2c51009db8166e40d4a73a13ee",
+        "Cache-Control": "max-age=60, s-maxage=120, private, no-cache, no-store",
+        "beacon-proxy": "off",
+        "ETag": "W/\"35e58-ruNV0RmRXy7DoiYYcU/sNkmJsK0\"",
+        "x-readtime": "39",
+        "Via": "wormhole-cache033001053006.lazada-sg.os30[0,304-0,H], wormhole-cache033001025095.lazada-sg.os30[0,200-0,H]",
+        "Age": "100",
+        "X-Cache": "HIT TCP_MEM_HIT dirn:0:20457880 mlen:-1",
+        "Content-Encoding": "gzip",
+        "Server": "Tengine/Aserver",
+        "EagleEye-TraceId": "2140e84e17615618751772848e2a9f",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Timing-Allow-Origin": "*"
+      }
+    },
+    "snapshot": {
+      "ok": true,
+      "path": "snapshots\\daraz_pk_20251027_104435.html",
+      "filepath": "snapshots\\daraz_pk_20251027_104435.html"
+    },
+    "dns": {
+      "A": [
+        "47.246.174.148",
+        "47.246.167.168",
+        "47.246.167.152",
+        "47.246.174.23"
+      ],
+      "CNAME": [],
+      "TXT": []
+    },
+    "subdomains": {
+      "ok": false,
+      "subdomains": [],
+      "error": "HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=6)"
+    },
+    "ports": {
+      "target": "daraz.pk",
+      "ip": "daraz.pk",
+      "open_ports": [
+        80,
+        443
+      ],
+      "banners": {
+        "80": "HTTP/1.1 302 Moved Temporarily\r\nDate: Mon, 27 Oct 2025 10:44:39 GMT\r\nContent-Type: text/html\r\nContent-Length: 337\r\nConnection: close\r\nLocation: http://www.taobao.com/\r\nServer: Tengine/Aserver\r\nVia: global-aserver033001065065.rg-sg.os30[web,302]",
+        "443": "HTTP/1.1 301 Moved Permanently\r\nDate: Mon, 27 Oct 2025 10:44:39 GMT\r\nContent-Type: text/html\r\nContent-Length: 357\r\nConnection: close\r\nLocation: https://*.alimebot.daraz.com/\r\nServer: Tengine/Aserver\r\nEagleEye-TraceId: 2140cb2317615618795164089e7225\r\nTiming-Allow-Origin: *"
+      },
+      "scanned_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        443,
+        8080
+      ],
+      "errors": [],
+      "skipped_private": false
+    }
+  },
+  "errors": [],
+  "risk_score": 14
+}

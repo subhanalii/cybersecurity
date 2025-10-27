@@ -1,0 +1,10 @@
+{
+    "domain": "google.com",
+    "scan_time": "2025-10-27 10:05:14 UTC",
+    "dns_records": [
+        "A",
+        "MX",
+        "NS"
+    ],
+    "status": "Scan complete"
+}

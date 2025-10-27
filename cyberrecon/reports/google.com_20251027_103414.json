@@ -1,0 +1,110 @@
+{
+  "domain": "google.com",
+  "generated_at": "2025-10-27T10:34:07.461949",
+  "results": {
+    "headers": {
+      "ok": true,
+      "headers": {
+        "Content-Type": "text/html; charset=ISO-8859-1",
+        "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-dl1MH4BAcCUCwElGWoyILg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+        "Accept-CH": "Sec-CH-Prefers-Color-Scheme",
+        "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+        "Date": "Mon, 27 Oct 2025 10:34:09 GMT",
+        "Server": "gws",
+        "X-XSS-Protection": "0",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Expires": "Mon, 27 Oct 2025 10:34:09 GMT",
+        "Cache-Control": "private",
+        "Set-Cookie": "AEC=AaJma5txknOy4IxC9Lw8RiucWvcCqILzhJfjD3Glhg3NBafX9DLmiNcMxts; expires=Sat, 25-Apr-2026 10:34:09 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=526=rEES5uVsRPYJXB9nP1rBa9PxIXG4fBitBVMb928oxvmtFfNggbga4iNdSish9IkLaM-vX4D7ZSQGnYm26FoAegIFmDA8iHqI50-ZAzEzJ7xjeBzo3uEKRsnt0phrIxJe5sJIhjBoMmoyy1X3GCBtDCM-ay58EVDi5NAb7d9tQvlDvOSmnXPNHlwCe71yUYuhXfjMO5X4IbWWamM; expires=Tue, 28-Apr-2026 10:34:09 GMT; path=/; domain=.google.com; HttpOnly",
+        "Transfer-Encoding": "chunked",
+        "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      }
+    },
+    "whois": {
+      "domain_name": [
+        "GOOGLE.COM",
+        "google.com"
+      ],
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": [
+        "1997-09-15 04:00:00",
+        "1997-09-15 07:00:00+00:00"
+      ],
+      "expiration_date": [
+        "2028-09-14 04:00:00",
+        "2028-09-13 07:00:00+00:00"
+      ],
+      "name_servers": [
+        "NS1.GOOGLE.COM",
+        "NS2.GOOGLE.COM",
+        "NS3.GOOGLE.COM",
+        "NS4.GOOGLE.COM",
+        "ns2.google.com",
+        "ns4.google.com",
+        "ns3.google.com",
+        "ns1.google.com"
+      ],
+      "emails": [
+        "abusecomplaints@markmonitor.com",
+        "whoisrequest@markmonitor.com"
+      ],
+      "status": [
+        "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+        "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+        "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+        "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+        "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+        "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+        "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+        "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+        "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+        "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+        "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+        "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+      ]
+    },
+    "snapshot": {
+      "ok": true,
+      "path": "snapshots\\google_com_20251027_103409.html",
+      "filepath": "snapshots\\google_com_20251027_103409.html"
+    },
+    "dns": {
+      "A": [
+        "142.250.202.14"
+      ],
+      "CNAME": [],
+      "TXT": []
+    },
+    "subdomains": {
+      "ok": false,
+      "subdomains": [],
+      "error": "HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=6)"
+    },
+    "ports": {
+      "target": "google.com",
+      "ip": "google.com",
+      "open_ports": [
+        80,
+        443
+      ],
+      "banners": {
+        "80": "HTTP/1.0 200 OK\r\nContent-Type: text/html; charset=ISO-8859-1\r\nContent-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-G0xKTiOJRd_aR8Hkymj49A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp\r\nP3P: CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"\r\nDate: Mon, 27 Oct 2025 10:34:13 GMT\r\nServer: gws\r\nX-XSS-Protection: 0\r\nX-Frame-Options: SAMEORIGIN\r\nExpires: Mon, 27 Oct 2025 10:34:13 GMT\r\nCache-Control: private\r\nSet-Cookie: AEC=AaJma5tAdGVihuEbNskmTjaK3h9iJuYLdoPN5o1JUV2JAddSxiPzNhi7qe4; expires=Sat, 25-Apr-2026 10:34:13 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax\r\nSet-Cookie: NID=526=HJ9ty40Hhyl_wfp6ryouUH19I5pQz0QcBdLnPNPrhK92NLN1ZFDb_tQY2gNltYQ_RM6n8BIQ0afo8kiz4Mz8lLG_rL886rPjbkjEHt0-PKJ-6_CIiGhBTHnyeTzmJ15ZVD9f75mke9JrqnTQMymrgWHUlr033XxBTx4iTY7tR849vE-XpVmCS7OPfzDsF4kHbPO1lzjASivb6A; expires=Tue, 28-Apr-2026 10:34:13 GMT; path=/; domain=.google.com; HttpOnly",
+        "443": ""
+      },
+      "scanned_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        443,
+        8080
+      ],
+      "errors": [],
+      "skipped_private": false
+    }
+  },
+  "errors": [],
+  "risk_score": 14
+}

@@ -1,0 +1,109 @@
+{
+  "domain": "spsnet.com",
+  "generated_at": "2025-10-27T10:48:05.399064",
+  "results": {
+    "headers": {
+      "ok": true,
+      "headers": {
+        "Date": "Mon, 27 Oct 2025 10:48:07 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Connection": "keep-alive",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), geolocation=(), microphone=(), usb=()",
+        "X-Powered-By": "PHP/7.3.33",
+        "Set-Cookie": "PHPSESSID=jiq7emq3i2qa785mvsv9eke03m; path=/",
+        "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "Cache-Control": "no-store, no-cache, must-revalidate",
+        "Pragma": "no-cache",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+      }
+    },
+    "subdomains": {
+      "ok": true,
+      "subdomains": [
+        "*.spsnet.com",
+        "admin.spsnet.com",
+        "admin2.spsnet.com",
+        "ai.spsnet.com",
+        "cicd.spsnet.com",
+        "cmmc-dev.spsnet.com",
+        "cmmc.spsnet.com",
+        "cr.spsnet.com",
+        "csm-dev.spsnet.com",
+        "csm.spsnet.com",
+        "customers2.spsnet.com",
+        "eramba.spsnet.com",
+        "hdesk.spsnet.com",
+        "helpdesk.spsnet.com",
+        "mail.spsnet.com",
+        "nepra-dev.spsnet.com",
+        "nepra.spsnet.com",
+        "owa.spsnet.com",
+        "solutions-ii-dev.spsnet.com",
+        "solutions-ii.spsnet.com",
+        "spsnet.com",
+        "timelive.spsnet.com",
+        "www.ai.spsnet.com",
+        "www.customers2.spsnet.com",
+        "www.owa.spsnet.com",
+        "www.spsnet.com",
+        "www.timelive.spsnet.com"
+      ]
+    },
+    "whois": {
+      "domain_name": "SPSNET.COM",
+      "registrar": "Network Solutions, LLC",
+      "creation_date": "1996-04-01 05:00:00",
+      "expiration_date": "2028-04-02 04:00:00",
+      "name_servers": [
+        "NS81.WORLDNIC.COM",
+        "NS82.WORLDNIC.COM"
+      ],
+      "emails": [
+        "domain.operations@web.com",
+        "m53sc79u44j@networksolutionsprivateregistration.com"
+      ],
+      "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+    },
+    "snapshot": {
+      "ok": true,
+      "path": "snapshots\\spsnet_com_20251027_104809.html",
+      "filepath": "snapshots\\spsnet_com_20251027_104809.html"
+    },
+    "dns": {
+      "A": [
+        "150.239.169.214"
+      ],
+      "CNAME": [],
+      "TXT": []
+    },
+    "ports": {
+      "target": "spsnet.com",
+      "ip": "spsnet.com",
+      "open_ports": [
+        80,
+        443
+      ],
+      "banners": {
+        "80": "HTTP/1.1 404 Not Found\r\nDate: Mon, 27 Oct 2025 10:48:12 GMT\r\nContent-Type: text/html\r\nContent-Length: 50\r\nConnection: close",
+        "443": "HTTP/1.1 400 Bad Request\r\nDate: Mon, 27 Oct 2025 10:48:12 GMT\r\nContent-Type: text/html\r\nContent-Length: 248\r\nConnection: close"
+      },
+      "scanned_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        443,
+        8080
+      ],
+      "errors": [],
+      "skipped_private": false
+    }
+  },
+  "errors": [],
+  "risk_score": 14
+}

@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="mb-4">
+  <a href="/" class="btn btn-custom mb-4">⬅ Back</a>
+</div>
+
+<h2 class="text-2xl font-bold mb-2">Scan Results for {{ target }}</h2>
+
+<!-- DNS Records -->
+<div class="panel p-3 mb-3">
+  <h5 class="small muted">📌 DNS Records</h5>
+  {% if summary.dns is defined and summary.dns %}
+    <pre>{{ summary.dns | tojson(indent=2) }}</pre>
+  {% else %}
+    <p class="text-muted">No DNS data available.</p>
+  {% endif %}
+</div>
+
+<!-- Security Headers -->
+<div class="panel p-3 mb-3">
+  <h5 class="small muted">📌 Security Headers</h5>
+  {% if summary.headers is defined and summary.headers %}
+    <pre>{{ summary.headers | tojson(indent=2) }}</pre>
+  {% else %}
+    <p class="text-muted">No Security Headers data available.</p>
+  {% endif %}
+</div>
+
+<!-- Open Ports -->
+<div class="panel p-3 mb-3">
+  <h5 class="small muted">📌 Open Ports</h5>
+  {% if summary.ports is defined and summary.ports %}
+    <pre>{{ summary.ports | tojson(indent=2) }}</pre>
+  {% else %}
+    <p class="text-muted">No Open Ports data available.</p>
+  {% endif %}
+</div>
+
+<!-- Subdomains -->
+<div class="panel p-3 mb-3">
+  <h5 class="small muted">📌 Subdomains (crt.sh)</h5>
+  {% if summary.subdomains is defined and summary.subdomains %}
+    <pre>{{ summary.subdomains | tojson(indent=2) }}</pre>
+  {% else %}
+    <p class="text-muted">No Subdomain data available.</p>
+  {% endif %}
+</div>
+
+<!-- WHOIS Info -->
+<div class="panel p-3 mb-3">
+  <h5 class="small muted">📌 WHOIS Info</h5>
+  {% if summary.whois is defined and summary.whois %}
+    <pre>{{ summary.whois | tojson(indent=2) }}</pre>
+  {% else %}
+    <p class="text-muted">No WHOIS data available.</p>
+  {% endif %}
+</div>
+
+<!-- HTML Snapshot -->
+<div class="panel p-3 mb-3">
+  <h5 class="small muted">📌 HTML Snapshot</h5>
+  {% if summary.snapshot is defined and summary.snapshot and summary.snapshot.ok %}
+    <p>Saved at: {{ summary.snapshot.path or summary.snapshot.filepath }}</p>
+  {% else %}
+    <p class="text-muted">No HTML snapshot available.</p>
+  {% endif %}
+</div>
+
+<!-- Buttons -->
+<div class="d-flex gap-2">
+  <a href="/summary" class="btn btn-light text-dark" target="_blank">Open JSON (summary.json)</a>
+  <a href="/summary/latest" class="btn btn-outline-light" target="_blank">Open Latest Report</a>
+</div>
+
+{% endblock %}

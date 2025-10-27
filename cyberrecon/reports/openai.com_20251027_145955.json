@@ -1,0 +1,86 @@
+{
+  "domain": "openai.com",
+  "generated_at": "2025-10-27T14:59:47.891930",
+  "results": {
+    "whois": {
+      "error": "python-whois not installed"
+    },
+    "dns": {
+      "A": [
+        "172.64.154.211",
+        "104.18.33.45"
+      ],
+      "CNAME": [],
+      "TXT": []
+    },
+    "snapshot": {
+      "ok": false,
+      "error": "403 Client Error: Forbidden for url: https://openai.com/"
+    },
+    "headers": {
+      "ok": true,
+      "headers": {
+        "Date": "Mon, 27 Oct 2025 14:59:50 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+        "cf-mitigated": "challenge",
+        "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+        "cross-origin-embedder-policy": "require-corp",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "permissions-policy": "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+        "referrer-policy": "same-origin",
+        "server-timing": "chlray;desc=\"99530f415ede24d9\"",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+        "Set-Cookie": "__cf_bm=jpa1g1dH.eHKwFRm80zPt6zaDzWIYq1LCXBZCmUjNHs-1761577190-1.0.1.1-B7Gce6mJOY3tZFzLuSIKdsVTRz7Z8Pqip75lkkxHKir4gvg7xPqHMhkK0d0WQg3MWz1KME0BXT_pvNDdFwhEJx.SY_A1dg6qZJXnscap8G8; path=/; expires=Mon, 27-Oct-25 15:29:50 GMT; domain=.openai.com; HttpOnly; Secure; SameSite=None",
+        "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=fKx%2FVl8eDxvSI3%2FcdHxC96AFKEtW4W2ea4PMvnx8XcILM53SI7TX%2BBjzAig1JnTwFEhnb2nRD8FqzsjR6DJmZpKqgOpQjAtrgJ4u0nctZDWZqaGBbcF4GQA7zE0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "NEL": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "Vary": "Accept-Encoding",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Server": "cloudflare",
+        "CF-RAY": "99530f415ede24d9-KHI",
+        "Content-Encoding": "gzip",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      }
+    },
+    "ports": {
+      "target": "openai.com",
+      "ip": "openai.com",
+      "open_ports": [
+        80,
+        443,
+        8080
+      ],
+      "banners": {
+        "80": "HTTP/1.1 400 Bad Request\r\nDate: Mon, 27 Oct 2025 14:59:53 GMT\r\nContent-Length: 68\r\nConnection: close\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nReferrer-Policy: same-origin\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nProxy-Status: Cloudflare-Proxy;error=http_request_error\r\nCF-RAY: 99530f562d3e97a4-KHI",
+        "443": "HTTP/1.1 400 Bad Request\r\nServer: cloudflare\r\nDate: Mon, 27 Oct 2025 14:59:54 GMT\r\nContent-Type: text/html\r\nContent-Length: 253\r\nConnection: close\r\nCF-RAY: -",
+        "8080": "HTTP/1.1 400 Bad Request\r\nDate: Mon, 27 Oct 2025 14:59:54 GMT\r\nContent-Length: 68\r\nConnection: close\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nReferrer-Policy: same-origin\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nProxy-Status: Cloudflare-Proxy;error=http_request_error\r\nCF-RAY: 99530f56fe30a07f-KHI"
+      },
+      "scanned_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        443,
+        8080
+      ],
+      "errors": [],
+      "skipped_private": false
+    },
+    "subdomains": {
+      "ok": false,
+      "subdomains": [],
+      "error": "HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=6)"
+    }
+  },
+  "errors": [],
+  "risk_score": 16
+}

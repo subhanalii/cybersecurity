@@ -1,0 +1,193 @@
+2025-10-27 14:24:26,099 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 14:24:26,099 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 14:24:26,101 [INFO]  * Restarting with stat
+2025-10-27 14:24:27,268 [WARNING]  * Debugger is active!
+2025-10-27 14:24:27,288 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 14:24:42,600 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 14:24:42,600 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 14:24:42,603 [INFO]  * Restarting with stat
+2025-10-27 14:24:43,699 [WARNING]  * Debugger is active!
+2025-10-27 14:24:43,705 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 14:25:37,326 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 14:25:37,326 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 14:25:37,328 [INFO]  * Restarting with stat
+2025-10-27 14:25:38,649 [WARNING]  * Debugger is active!
+2025-10-27 14:25:38,656 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 14:26:04,717 [INFO] 127.0.0.1 - - [27/Oct/2025 14:26:04] "GET / HTTP/1.1" 200 -
+2025-10-27 14:26:04,998 [INFO] 127.0.0.1 - - [27/Oct/2025 14:26:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 14:26:23,453 [INFO] Starting scan for facebook.com
+2025-10-27 14:26:23,454 [INFO] Building summary for facebook.com
+2025-10-27 14:26:30,256 [INFO] Report saved: E:\cyber\cyberrecon\reports\facebook.com_20251027_092630.json
+2025-10-27 14:26:30,258 [INFO] 127.0.0.1 - - [27/Oct/2025 14:26:30] "POST /scan HTTP/1.1" 200 -
+2025-10-27 14:26:39,121 [INFO] 127.0.0.1 - - [27/Oct/2025 14:26:39] "[33mGET /summary HTTP/1.1[0m" 404 -
+2025-10-27 14:28:05,225 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 14:28:05,225 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 14:28:05,227 [INFO]  * Restarting with stat
+2025-10-27 14:28:06,249 [WARNING]  * Debugger is active!
+2025-10-27 14:28:06,255 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 14:28:17,649 [INFO] 127.0.0.1 - - [27/Oct/2025 14:28:17] "GET / HTTP/1.1" 200 -
+2025-10-27 14:28:17,823 [INFO] 127.0.0.1 - - [27/Oct/2025 14:28:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 14:28:22,208 [INFO] Starting scan for facebook.com
+2025-10-27 14:28:22,208 [INFO] Building summary for facebook.com
+2025-10-27 14:28:29,568 [INFO] Report saved: E:\cyber\cyberrecon\reports\facebook.com_20251027_092829.json
+2025-10-27 14:28:29,568 [INFO] 127.0.0.1 - - [27/Oct/2025 14:28:29] "POST /scan HTTP/1.1" 200 -
+2025-10-27 14:28:39,644 [INFO] 127.0.0.1 - - [27/Oct/2025 14:28:39] "[33mGET /summary HTTP/1.1[0m" 404 -
+2025-10-27 14:30:01,889 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 14:30:01,889 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 14:30:01,889 [INFO]  * Restarting with stat
+2025-10-27 14:30:02,866 [WARNING]  * Debugger is active!
+2025-10-27 14:30:02,874 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 14:30:04,795 [INFO] 127.0.0.1 - - [27/Oct/2025 14:30:04] "GET / HTTP/1.1" 200 -
+2025-10-27 14:30:04,943 [INFO] 127.0.0.1 - - [27/Oct/2025 14:30:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 14:30:10,092 [INFO] Starting scan for facebook.com
+2025-10-27 14:30:10,092 [INFO] Building summary for facebook.com
+2025-10-27 14:30:16,507 [INFO] Report saved: E:\cyber\cyberrecon\reports\facebook.com_20251027_093016.json
+2025-10-27 14:30:16,507 [INFO] 127.0.0.1 - - [27/Oct/2025 14:30:16] "POST /scan HTTP/1.1" 200 -
+2025-10-27 14:30:27,878 [INFO] 127.0.0.1 - - [27/Oct/2025 14:30:27] "[33mGET /summary HTTP/1.1[0m" 404 -
+2025-10-27 14:30:43,314 [INFO] 127.0.0.1 - - [27/Oct/2025 14:30:43] "[33mGET /summary HTTP/1.1[0m" 404 -
+2025-10-27 14:31:02,532 [INFO] 127.0.0.1 - - [27/Oct/2025 14:31:02] "GET /reports HTTP/1.1" 200 -
+2025-10-27 14:31:22,956 [INFO] Starting scan for google.com
+2025-10-27 14:31:22,956 [INFO] Building summary for google.com
+2025-10-27 14:31:29,695 [INFO] Report saved: E:\cyber\cyberrecon\reports\google.com_20251027_093129.json
+2025-10-27 14:31:29,695 [INFO] 127.0.0.1 - - [27/Oct/2025 14:31:29] "POST /scan HTTP/1.1" 200 -
+2025-10-27 14:31:32,071 [INFO] 127.0.0.1 - - [27/Oct/2025 14:31:32] "[33mGET /summary HTTP/1.1[0m" 404 -
+2025-10-27 15:04:52,285 [INFO]  * Detected change in 'E:\\cyber\\cyberrecon\\app.py', reloading
+2025-10-27 15:04:52,848 [INFO]  * Restarting with stat
+2025-10-27 15:04:56,265 [WARNING]  * Debugger is active!
+2025-10-27 15:04:56,272 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 15:05:00,130 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 15:05:00,130 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 15:05:00,132 [INFO]  * Restarting with stat
+2025-10-27 15:05:00,742 [WARNING]  * Debugger is active!
+2025-10-27 15:05:00,749 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 15:05:02,489 [INFO] 127.0.0.1 - - [27/Oct/2025 15:05:02] "GET / HTTP/1.1" 200 -
+2025-10-27 15:05:05,543 [INFO] 127.0.0.1 - - [27/Oct/2025 15:05:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:05:14,140 [INFO] Starting scan for google.com
+2025-10-27 15:05:14,144 [INFO] Scan completed successfully for google.com
+2025-10-27 15:05:14,144 [INFO] 127.0.0.1 - - [27/Oct/2025 15:05:14] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:05:17,410 [INFO] 127.0.0.1 - - [27/Oct/2025 15:05:17] "GET /summary HTTP/1.1" 200 -
+2025-10-27 15:05:49,798 [INFO] 127.0.0.1 - - [27/Oct/2025 15:05:49] "[33mGET /report HTTP/1.1[0m" 404 -
+2025-10-27 15:05:56,757 [INFO] 127.0.0.1 - - [27/Oct/2025 15:05:56] "GET /reports HTTP/1.1" 200 -
+2025-10-27 15:32:04,458 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 15:32:04,458 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 15:32:04,459 [INFO]  * Restarting with stat
+2025-10-27 15:32:05,426 [WARNING]  * Debugger is active!
+2025-10-27 15:32:05,426 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 15:32:09,564 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:09] "GET / HTTP/1.1" 200 -
+2025-10-27 15:32:12,162 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:12] "GET /static/style.css HTTP/1.1" 200 -
+2025-10-27 15:32:17,425 [INFO] Starting scan for openai.com
+2025-10-27 15:32:17,425 [INFO] Building summary for openai.com
+2025-10-27 15:32:25,303 [INFO] Saved report: E:\cyber\cyberrecon\reports\openai.com_20251027_103225.json
+2025-10-27 15:32:25,303 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:25] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:32:45,869 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:45] "[35m[1mGET /report/openai.com HTTP/1.1[0m" 500 -
+2025-10-27 15:32:45,890 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:45] "GET /report/openai.com?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-27 15:32:45,891 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:45] "GET /report/openai.com?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-27 15:32:46,016 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:46] "GET /report/openai.com?__debugger__=yes&cmd=resource&f=console.png&s=gndPY02QOfr0KSwv9XLf HTTP/1.1" 200 -
+2025-10-27 15:32:46,033 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:46] "GET /report/openai.com?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-27 15:32:59,587 [INFO] 127.0.0.1 - - [27/Oct/2025 15:32:59] "GET /summary HTTP/1.1" 200 -
+2025-10-27 15:33:55,502 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 15:33:55,503 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 15:33:55,504 [INFO]  * Restarting with stat
+2025-10-27 15:33:56,553 [WARNING]  * Debugger is active!
+2025-10-27 15:33:56,558 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 15:33:59,311 [INFO] 127.0.0.1 - - [27/Oct/2025 15:33:59] "[35m[1mGET /report/openai.com HTTP/1.1[0m" 500 -
+2025-10-27 15:33:59,506 [INFO] 127.0.0.1 - - [27/Oct/2025 15:33:59] "[36mGET /report/openai.com?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:33:59,527 [INFO] 127.0.0.1 - - [27/Oct/2025 15:33:59] "[36mGET /report/openai.com?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-27 15:33:59,546 [INFO] 127.0.0.1 - - [27/Oct/2025 15:33:59] "GET /report/openai.com?__debugger__=yes&cmd=resource&f=console.png&s=YwpZ0BnoNKG61XYtZ8a4 HTTP/1.1" 200 -
+2025-10-27 15:33:59,562 [INFO] 127.0.0.1 - - [27/Oct/2025 15:33:59] "[36mGET /report/openai.com?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-27 15:34:03,777 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:03] "GET / HTTP/1.1" 200 -
+2025-10-27 15:34:03,849 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:34:07,461 [INFO] Starting scan for google.com
+2025-10-27 15:34:07,461 [INFO] Building summary for google.com
+2025-10-27 15:34:14,009 [INFO] Saved report: E:\cyber\cyberrecon\reports\google.com_20251027_103414.json
+2025-10-27 15:34:14,010 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:14] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:34:17,342 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:17] "[35m[1mGET /report/google.com HTTP/1.1[0m" 500 -
+2025-10-27 15:34:17,370 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:17] "GET /report/google.com?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-27 15:34:17,376 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:17] "GET /report/google.com?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-27 15:34:17,451 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:17] "GET /report/google.com?__debugger__=yes&cmd=resource&f=console.png&s=YwpZ0BnoNKG61XYtZ8a4 HTTP/1.1" 200 -
+2025-10-27 15:34:17,479 [INFO] 127.0.0.1 - - [27/Oct/2025 15:34:17] "GET /report/google.com?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-27 15:38:12,226 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 15:38:12,226 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 15:38:12,226 [INFO]  * Restarting with stat
+2025-10-27 15:38:13,303 [WARNING]  * Debugger is active!
+2025-10-27 15:38:13,303 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 15:38:15,969 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:15] "GET / HTTP/1.1" 200 -
+2025-10-27 15:38:16,180 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:38:24,663 [INFO] Starting scan for openai.com
+2025-10-27 15:38:24,663 [INFO] Building summary for openai.com
+2025-10-27 15:38:31,173 [INFO] Saved report: E:\cyber\cyberrecon\reports\openai.com_20251027_103831.json
+2025-10-27 15:38:31,173 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:31] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:38:39,823 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:39] "GET /report/openai.com HTTP/1.1" 200 -
+2025-10-27 15:38:39,913 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:38:47,515 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:47] "GET /summary/latest HTTP/1.1" 200 -
+2025-10-27 15:38:51,800 [INFO] 127.0.0.1 - - [27/Oct/2025 15:38:51] "GET /summary HTTP/1.1" 200 -
+2025-10-27 15:40:20,972 [INFO]  * Detected change in 'E:\\cyber\\cyberrecon\\app.py', reloading
+2025-10-27 15:40:21,205 [INFO]  * Restarting with stat
+2025-10-27 15:40:59,712 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 15:40:59,712 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 15:40:59,714 [INFO]  * Restarting with stat
+2025-10-27 15:41:00,661 [WARNING]  * Debugger is active!
+2025-10-27 15:41:00,661 [INFO]  * Debugger PIN: 917-646-416
+2025-10-27 15:41:02,435 [INFO] 127.0.0.1 - - [27/Oct/2025 15:41:02] "GET / HTTP/1.1" 200 -
+2025-10-27 15:41:02,576 [INFO] 127.0.0.1 - - [27/Oct/2025 15:41:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:41:20,391 [INFO] 127.0.0.1 - - [27/Oct/2025 15:41:20] "[31m[1mPOST /scan HTTP/1.1[0m" 400 -
+2025-10-27 15:41:23,374 [INFO] 127.0.0.1 - - [27/Oct/2025 15:41:23] "[31m[1mPOST /scan HTTP/1.1[0m" 400 -
+2025-10-27 15:41:34,691 [INFO] 127.0.0.1 - - [27/Oct/2025 15:41:34] "[31m[1mPOST /scan HTTP/1.1[0m" 400 -
+2025-10-27 15:41:35,360 [INFO] 127.0.0.1 - - [27/Oct/2025 15:41:35] "[31m[1mPOST /scan HTTP/1.1[0m" 400 -
+2025-10-27 15:43:15,101 [INFO] Starting scan for juice.local
+2025-10-27 15:43:15,101 [INFO] Building summary for juice.local
+2025-10-27 15:43:33,523 [INFO] Saved report: E:\cyber\cyberrecon\reports\juice.local_20251027_104333.json
+2025-10-27 15:43:33,524 [INFO] 127.0.0.1 - - [27/Oct/2025 15:43:33] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:43:41,107 [INFO] 127.0.0.1 - - [27/Oct/2025 15:43:41] "GET /report/juice.local HTTP/1.1" 200 -
+2025-10-27 15:43:42,102 [INFO] 127.0.0.1 - - [27/Oct/2025 15:43:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:44:32,564 [INFO] Starting scan for daraz.pk
+2025-10-27 15:44:32,564 [INFO] Building summary for daraz.pk
+2025-10-27 15:44:39,616 [INFO] Saved report: E:\cyber\cyberrecon\reports\daraz.pk_20251027_104439.json
+2025-10-27 15:44:39,616 [INFO] 127.0.0.1 - - [27/Oct/2025 15:44:39] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:44:50,648 [INFO] 127.0.0.1 - - [27/Oct/2025 15:44:50] "GET /summary HTTP/1.1" 200 -
+2025-10-27 15:44:54,453 [INFO] 127.0.0.1 - - [27/Oct/2025 15:44:54] "GET /report/daraz.pk HTTP/1.1" 200 -
+2025-10-27 15:44:54,509 [INFO] 127.0.0.1 - - [27/Oct/2025 15:44:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 15:48:05,398 [INFO] Starting scan for spsnet.com
+2025-10-27 15:48:05,399 [INFO] Building summary for spsnet.com
+2025-10-27 15:48:13,089 [INFO] Saved report: E:\cyber\cyberrecon\reports\spsnet.com_20251027_104813.json
+2025-10-27 15:48:13,089 [INFO] 127.0.0.1 - - [27/Oct/2025 15:48:13] "POST /scan HTTP/1.1" 200 -
+2025-10-27 15:48:36,559 [INFO] 127.0.0.1 - - [27/Oct/2025 15:48:36] "GET /report/spsnet.com HTTP/1.1" 200 -
+2025-10-27 15:48:36,668 [INFO] 127.0.0.1 - - [27/Oct/2025 15:48:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 19:59:37,039 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2025-10-27 19:59:37,039 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-27 19:59:37,355 [INFO]  * Restarting with watchdog (windowsapi)
+2025-10-27 19:59:37,781 [WARNING]  * Debugger is active!
+2025-10-27 19:59:37,804 [INFO]  * Debugger PIN: 120-905-794
+2025-10-27 19:59:39,275 [INFO] 127.0.0.1 - - [27/Oct/2025 19:59:39] "GET / HTTP/1.1" 200 -
+2025-10-27 19:59:39,534 [INFO] 127.0.0.1 - - [27/Oct/2025 19:59:39] "GET /static/style.css HTTP/1.1" 200 -
+2025-10-27 19:59:40,113 [INFO] 127.0.0.1 - - [27/Oct/2025 19:59:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-27 19:59:47,891 [INFO] Starting scan for openai.com
+2025-10-27 19:59:47,891 [INFO] Building summary for openai.com
+2025-10-27 19:59:55,341 [INFO] Saved report: E:\cyber\cyberrecon\reports\openai.com_20251027_145955.json
+2025-10-27 19:59:55,341 [INFO] 127.0.0.1 - - [27/Oct/2025 19:59:55] "POST /scan HTTP/1.1" 200 -
+2025-10-27 20:00:03,504 [INFO] 127.0.0.1 - - [27/Oct/2025 20:00:03] "GET / HTTP/1.1" 200 -
+2025-10-27 20:00:03,519 [INFO] 127.0.0.1 - - [27/Oct/2025 20:00:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 20:00:36,410 [INFO] Starting scan for openai.com
+2025-10-27 20:00:36,410 [INFO] Building summary for openai.com
+2025-10-27 20:00:43,864 [INFO] Saved report: E:\cyber\cyberrecon\reports\openai.com_20251027_150043.json
+2025-10-27 20:00:43,864 [INFO] 127.0.0.1 - - [27/Oct/2025 20:00:43] "POST /scan HTTP/1.1" 200 -
+2025-10-27 20:01:02,892 [INFO] 127.0.0.1 - - [27/Oct/2025 20:01:02] "GET / HTTP/1.1" 200 -
+2025-10-27 20:01:02,913 [INFO] 127.0.0.1 - - [27/Oct/2025 20:01:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 20:01:15,659 [INFO] Starting scan for github.com
+2025-10-27 20:01:15,659 [INFO] Building summary for github.com
+2025-10-27 20:01:22,770 [INFO] Saved report: E:\cyber\cyberrecon\reports\github.com_20251027_150122.json
+2025-10-27 20:01:22,786 [INFO] 127.0.0.1 - - [27/Oct/2025 20:01:22] "POST /scan HTTP/1.1" 200 -
+2025-10-27 20:02:10,100 [INFO] 127.0.0.1 - - [27/Oct/2025 20:02:10] "GET /report/github.com HTTP/1.1" 200 -
+2025-10-27 20:02:10,321 [INFO] 127.0.0.1 - - [27/Oct/2025 20:02:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-27 20:02:17,874 [INFO] 127.0.0.1 - - [27/Oct/2025 20:02:17] "GET /summary HTTP/1.1" 200 -

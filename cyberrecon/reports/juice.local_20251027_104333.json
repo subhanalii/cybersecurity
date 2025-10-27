@@ -1,0 +1,54 @@
+{
+  "domain": "juice.local",
+  "generated_at": "2025-10-27T10:43:15.101176",
+  "results": {
+    "whois": {
+      "domain_name": null,
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "name_servers": null,
+      "emails": null,
+      "status": null
+    },
+    "headers": {
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='juice.local', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000230493013A0>: Failed to resolve 'juice.local' ([Errno 11001] getaddrinfo failed)\"))",
+      "headers": {}
+    },
+    "snapshot": {
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='juice.local', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000230493009E0>: Failed to resolve 'juice.local' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "subdomains": {
+      "ok": false,
+      "subdomains": [],
+      "error": "HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=6)"
+    },
+    "dns": {
+      "A": [],
+      "CNAME": [],
+      "TXT": []
+    },
+    "ports": {
+      "target": "juice.local",
+      "ip": "juice.local",
+      "open_ports": [],
+      "banners": {},
+      "scanned_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        443,
+        8080
+      ],
+      "errors": [],
+      "skipped_private": false
+    }
+  },
+  "errors": [],
+  "risk_score": 10
+}
