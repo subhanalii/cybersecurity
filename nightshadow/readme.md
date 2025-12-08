@@ -71,7 +71,9 @@ Or run manually with Python:
 cd siem
 pip install -r requirements.txt
 python app.py
-<img width="1346" height="592" alt="image" src="https://github.com/user-attachments/assets/5979accd-6b33-40e7-a471-65536e4d3a0c" />
+### Screenshot
+
+![NightShadow Dashboard](dashboard.png)
 then open another terminal
 cd agent
 pip install requests
