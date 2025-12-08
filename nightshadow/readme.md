@@ -71,9 +71,8 @@ Or run manually with Python:
 cd siem
 pip install -r requirements.txt
 python app.py
-### Screenshot
-
 ![NightShadow Dashboard](dashboard.png)
+
 then open another terminal
 cd agent
 pip install requests
