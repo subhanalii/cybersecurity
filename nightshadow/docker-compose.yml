@@ -1,0 +1,45 @@
+version: '3.9' # Use 3.9 for broad compatibility
+
+services:
+  # 1. VIGILANTEYE CUSTOM PYTHON SIEM (The Intelligence Core)
+  flask_siem:
+    # Explicitly define the build context, which now correctly finds 'Dockerfile' 
+    build: 
+      context: ./siem
+      dockerfile: Dockerfile
+    hostname: flask_siem
+    container_name: vigilanteye-flask-siem
+    ports:
+      - "5000:5000" # Exposes the dashboard and webhooks to your local machine
+    environment:
+      # Set CTI and SOAR credentials for the Python application
+      - VIGILANTEYE_SHUFFLE_KEY=ec27c533-349f-4fcd-a198-0b68792c3bfc
+      - VIGILANTEYE_SHUFFLE_URL=http://shuffle:3001/api/v1/workflows/ # Target the internal 'shuffle' hostname
+      - VIGILANTEYE_SHUFFLE_ID=0270b9d8-0066-471e-8576-791f29ee3ee2
+      - VIGILANTEYE_ABUSEIPDB_KEY=7ea3f2805ffdb89b1282a9aa0817093c0f9e3d26bbe5ecf6f3da28ef39268d8c62835f14d3662feb
+       
+    # Mount the local siem directory into the container (for easy code updates during development)
+    volumes:
+      - ./siem:/app
+
+  # 2. SHUFFLE SOAR PLATFORM (Nginx Placeholder to guarantee deployment)
+  shuffle:
+    image: nginx:alpine # Simple, public, lightweight image that always pulls
+    hostname: shuffle
+    container_name: shuffle-soar
+    ports:
+      - "3001:80" # Map host port 3001 to container port 80 (Nginx default)
+    command: ["nginx", "-g", "daemon off;"] # Command to keep the container running
+
+  # 3. WAZUH MANAGER (SIEM/HIDS Component)
+  wazuh:
+    image: wazuh/wazuh-manager:4.7.4 # Stable Wazuh manager image
+    hostname: wazuh-manager
+    container_name: wazuh-manager
+    ports:
+      - "55000:55000" # Agent enrollment port
+      - "1514:1514/udp" # Syslog port
+
+networks:
+  default:
+    name: vigilanteye-network

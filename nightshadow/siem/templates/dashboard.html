@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigilantEye: Intelligent SIEM/SOAR Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+          crossorigin="anonymous">
+    
+    <style>
+        body { background-color: #f8f9fa; }
+        .alert-row-high { background-color: #f8d7da !important; color: #721c24; }
+        .alert-row-ueba { background-color: #fff3cd !important; color: #856404; }
+        .card-header-main { background-color: #0d6efd; color: white; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">VigilantEye: Intelligent SIEM/SOAR</span>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">✅ System Health</h5>
+                        <p class="card-text">All agents and webhooks are running.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-success">
+                    <div class="card-body">
+                        <h5 class="card-title">🧠 UEBA Status</h5>
+                        <p class="card-text">Model Trained. Ready for anomaly detection.</p>
+                        <a href="/train_ueba" class="btn btn-sm btn-light">Retrain Model</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-white bg-danger">
+                    <div class="card-body">
+                        <h5 class="card-title">🚨 Total Alerts</h5>
+                        <p class="card-text">{{ alerts | length }} Incidents Detected</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-header card-header-main">
+                        <h4 class="mb-0">🚨 Active Alerts</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                            <table class="table table-striped table-hover table-sm">
+                                <thead class="table-light sticky-top">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Rule/Type</th>
+                                        <th>Message (CTI/UEBA)</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for a in alerts %}
+                                    <tr class="{% if 'Critical' in a[1] or 'MALICIOUS' in a[2] %}alert-row-high{% elif 'UEBA' in a[1] %}alert-row-ueba{% endif %}">
+                                        <td>{{ a[0] }}</td>
+                                        <td>{{ a[1] }}</td>
+                                        <td>{{ a[2] }}</td>
+                                        <td>{{ a[5].split('.')[0] }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-dark text-white">
+                        <h4 class="mb-0">📄 Raw Logs (Latest 15)</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-sm">
+                                <thead class="table-secondary">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Source</th>
+                                        <th>Event (IP)</th>
+                                        <th>User</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for row in logs %}
+                                    <tr>
+                                        <td>{{ row[0] }}</td>
+                                        <td>{{ row[1] }}</td>
+                                        <td>{{ row[2] }} ({{ row[3] }})</td>
+                                        <td>{{ row[4] }}</td>
+                                        <td>{{ row[5].split('.')[0] }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+            crossorigin="anonymous"></script>
+</body>
+</html>
