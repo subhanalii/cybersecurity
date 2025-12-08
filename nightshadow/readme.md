@@ -67,14 +67,15 @@ cd cybersecurity/nightshadow
 Run Backend (Docker recommended)
 docker-compose up --build
 
-Or run manually with Python:cd siem
+Or run manually with Python:
+cd siem
 pip install -r requirements.txt
 python app.py
-
+<img width="1346" height="592" alt="image" src="https://github.com/user-attachments/assets/5979accd-6b33-40e7-a471-65536e4d3a0c" />
+then open another terminal
 cd agent
 pip install requests
 python windows_agent.py
-
 Future Improvements
 
 Additional ML models
