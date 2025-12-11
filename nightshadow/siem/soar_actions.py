@@ -6,11 +6,11 @@ import json
 
 # --- Shuffle Configuration (CRITICAL: Hardcoded Credentials) ---
 # Your actual Shuffle API Key
-SHUFFLE_API_KEY = "ec27c533-349f-4fcd-a198-0b68792c3bfc"
+SHUFFLE_API_KEY = ""
 # Base URL for your Shuffle server
 SHUFFLE_BASE_URL = "https://shuffler.io/api/v1/workflows/" 
 # The unique ID of the specific Shuffle playbook you created
-ISOLATE_WORKFLOW_ID = "0270b9d8-0066-471e-8576-791f29ee3ee2"
+ISOLATE_WORKFLOW_ID = ""
 
 def trigger_shuffle_workflow(log_id, alert_name, ip_address, cti_result, is_ueba_anomaly):
     """
