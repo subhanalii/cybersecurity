@@ -9,8 +9,8 @@ from soar_actions import trigger_shuffle_workflow
 from ueba import check_anomaly 
 # import os removed
 
-# --- CTI Configuration (Hardcoded Placeholder) ---
-ABUSEIPDB_API_KEY = "7ea3f2805ffdb89b1282a9aa0817093c0f9e3d26bbe5ecf6f3da28ef39268d8c62835f14d3662feb"
+# --- CTI Configuration ---
+ABUSEIPDB_API_KEY = ""
 
 def extract_ip(text):
     """Finds an IPv4 address in a log message."""
